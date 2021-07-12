@@ -1,0 +1,70 @@
+html {
+	font-family: 'Lora', 'PT Serif', Georgia, serif;
+	background-color: black;
+}
+header {
+	color: rgba(255, 255, 255, 1);
+	padding: 20px;
+	text-align: center;
+}
+h1 {
+	color: #EBEBEB;
+}
+#navbar {
+	overflow: hidden;
+	color: #EBEBEB;
+	border-bottom: 20px;
+	margin-top:  20px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#navbar a {
+	float: right;
+	display: block;
+	color: #EBEBEB;
+	text-align: center;
+	padding: 12px 25px;
+	text-decoration: none;
+}
+#container {
+
+	border: 15px solid #EBEBEB;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.left-images {
+
+	float: left;
+	padding: 5px;
+	border: 5px solid #EBEBEB;
+	color: #EBEBEB;
+}
+hr {
+	color: #EBEBEB;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	border: none;
+	height: 15px;
+	background-color: #EBEBEB;
+
+}
+.paragraph-Hbars {
+
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 15px;
+	border: none;
+	height: 8px;
+	background-color: #EBEBEB;
+}
+p {
+	color: #EBEBEB;
+
+}
+h2 {
+	color: #EBEBEB;
+}
+
