@@ -41,6 +41,16 @@ nav a {
 	color: #EBEBEB;
 	overflow: auto;
 }
+#index {
+
+	border: 15px solid #EBEBEB;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	color: #EBEBEB;
+	overflow: auto;
+}
 .left-images {
 
 	float: left;
