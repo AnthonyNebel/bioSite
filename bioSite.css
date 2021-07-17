@@ -2,6 +2,10 @@ html {
 	font-family: 'Lora', 'PT Serif', Georgia, serif;
 	background-color: black;
 }
+header, footer, nav, article, figure, figcaption {
+
+	display: block;
+}
 header {
 	color: rgba(255, 255, 255, 1);
 	padding: 20px;
@@ -10,29 +14,32 @@ header {
 h1 {
 	color: #EBEBEB;
 }
-#navbar {
+nav {
 	overflow: hidden;
 	color: #EBEBEB;
-	border-bottom: 20px;
-	margin-top:  20px;
-	margin-right: 50px;
-	margin-left: 50px;
+	border-bottom: 10px;
+	margin-top:  10px;
+	margin-right: 30px;
+	margin-left: 30px;
 }
-#navbar a {
+nav a {
 	float: right;
 	display: block;
 	color: #EBEBEB;
 	text-align: center;
 	padding: 12px 25px;
 	text-decoration: none;
+	
 }
-#container {
+#content {
 
 	border: 15px solid #EBEBEB;
 	margin-top: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 20px;
+	color: #EBEBEB;
+	overflow: auto;
 }
 .left-images {
 
@@ -41,10 +48,15 @@ h1 {
 	border: 2px solid #EBEBEB;
 	color: #EBEBEB;
 }
-.center-pic {
+.home-pic {
 
 	display: block;
 	margin: 0px auto;
+}
+#home-caption {
+
+	color: #EBEBEB;
+	text-align: center;
 }
 .about-pic {
 
@@ -56,10 +68,11 @@ hr {
 	color: #EBEBEB;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-top: 20px;
+	margin-top: 10px;
 	border: none;
 	height: 15px;
 	background-color: #EBEBEB;
+	clear: right;
 
 }
 .paragraph-Hbars {
@@ -76,7 +89,16 @@ p {
 	color: #EBEBEB;
 
 }
-h2 {
+h4 {
 	color: #EBEBEB;
+}
+footer a {
+
+	color: #EBEBEB;
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	text-decoration: none;
+
 }
 
